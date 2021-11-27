@@ -91,7 +91,8 @@ if __name__ == "__main__":
                     sendBack_Speed = 25
                 # cv2.imshow("IMG", img)
 
-                print(current_speed, "\t", current_angle, "\t\t", sendBack_Speed, "\t", sendBack_angle)
+                # print(current_speed, "\t", current_angle, "\t\t", sendBack_Speed, "\t", sendBack_angle)
+                
                 # Control(angle, speed)
                 Control(sendBack_angle, sendBack_Speed)
 
