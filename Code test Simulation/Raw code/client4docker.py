@@ -46,7 +46,7 @@ if __name__ == "__main__":
                         NOTE: (âm là lùi, dương là tiến)
             """
 
-            message_getState = bytes("0", "utf-8")
+            message_getState = bytes("0", encoding="utf8")
             s.sendall(message_getState)
             state_date = s.recv(100)
 
